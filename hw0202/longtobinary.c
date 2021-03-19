@@ -17,7 +17,7 @@ int longToBin(unsigned long longNum, char *binStr, size_t len) {
     }
     memset(binStr, 0, strlen(binStr));
     
-    printf("longNum: %ld\n", longNum);
+    //printf("longNum: %ld\n", longNum);
     
     for(long int i = len-1; i >= 0; i--) {
         //printf("i: %d\n", i);
